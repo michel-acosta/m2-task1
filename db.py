@@ -9,7 +9,7 @@ connection_pool = pooling.MySQLConnectionPool(
     host="64.202.117.89",
     port=3306,
     user="bzbmwhup_mudesweb",
-    password="gu)%t@1_$qfI)QKY",
+    password="gu)%t@1_$qfI)QKY", # Contraseña no válida. La buena está en la memoria de la práctica
     database="bzbmwhup_mudesweb"
 )
 

@@ -11,13 +11,13 @@ spotify_bp = Blueprint('spotify', __name__)
 
 # Credenciales de la API de Spotify
 CLIENT_ID = "cd3607f9979b420a9fdff834d4cc9027"
-CLIENT_SECRET = "6bb27222d53542cba27aed0d9d19a4c3"
+CLIENT_SECRET = "6bb27222d53542cba27aed0d9d19a4c3" # Secret no válido. El bueno está en la memoria de la práctica
 
 # URLs de Spotify que usaremos
 SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token"
 SPOTIFY_API_URL = "https://api.spotify.com/v1"
 SPOTIFY_AUTH_URL = "https://accounts.spotify.com/authorize"
-REDIRECT_URI = "https://michelacosta.com/mudesweb_m2_t1.php"
+REDIRECT_URI = "https://michelacosta.com/mudesweb_m2_t1.php" # para hacer un bypass del callback después del login
 
 # Token y caducidad del mismo para Client Credentials
 ACCESS_TOKEN = None
